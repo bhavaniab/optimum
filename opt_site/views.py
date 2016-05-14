@@ -7,3 +7,6 @@ def index(request):
 
 def services(request):
     return render_to_response('services.html', {}, context_instance=RequestContext(request))
+
+def contact(request):
+    return render_to_response('contact.html', {}, context_instance=RequestContext(request))
